@@ -1,0 +1,21 @@
+# .gitignore
+# .env
+# data
+
+
+# Ignore data directory
+/data/*
+
+# Ignore any .env files
+*.env
+
+# Ignore Procfile
+Procfile
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore virtual environment directory
+/datagenerate_env/
