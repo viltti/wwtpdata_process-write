@@ -9,7 +9,7 @@ from sqlalchemy import create_engine
 '''
 
 Here we use a Wastewater treatment plant dataset as a base. We interpolate the data such that 
-we get 10 minute intervals instead of 1 hour. 
+we get 10 minute intervals instead of 1 day. 
 
 Our methods do not account for the complex relationships between the features at all.
 We basically just add some noise so that plotting the signal would somewhat look like real data.
